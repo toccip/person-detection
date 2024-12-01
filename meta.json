@@ -1,0 +1,15 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "pauldetect:person-detection",
+  "visibility": "private",
+  "url": "",
+  "description": "Modular sensor component: person-sensor",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "pauldetect:person-detection:person-sensor"
+    }
+  ],
+  "entrypoint": "./run.sh",
+  "first_run": ""
+}
